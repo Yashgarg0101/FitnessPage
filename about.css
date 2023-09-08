@@ -1,0 +1,17 @@
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Baloo Bhaina 2', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url(img/dumbbell.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 48em; /* 100% of the viewport height */
+        overflow: hidden;
+        display: flexbox;
+        font-size: 20px;
+        color: white;
+        
+}

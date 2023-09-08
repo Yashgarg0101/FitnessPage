@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Bhaina+2:wght@400;500&display=swap" rel="stylesheet">
+    <title>Fitness Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <h1>BMI Calculator</h1>
+        <div class="input">
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" step="0.01">
+        </div>
+        <div class="input">
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" step="0.01">
+        </div>
+        <button onclick="calculateBMI()">Calculate BMI</button>
+        <div class="result" id="result"></div>
+    </div>
+    <script src="cal.js"></script>
+</body>
+</html>
